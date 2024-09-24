@@ -6,7 +6,7 @@
         <h1>My  <span class="purple-text">projects</span> </h1>
         <div class="project-table">
             <div class="project-item">
-                <img  src="/images/smtm.png" />
+                <!--<img  src="/images/smtm.png" />-->
                 <div class="project-text">
                     <h2>SMTM</h2>
                     <p>cookies, accessability, 5 sites</p>
@@ -14,7 +14,7 @@
             </div>
 
             <div class="project-item">
-                <img src="/images/ekn.png" />
+                <img src="/images/ekn.PNG" />
                 <div class="project-text">
                     <h2>EKN</h2>
                     <div class="tech-row">
