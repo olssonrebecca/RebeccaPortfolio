@@ -1,0 +1,46 @@
+$white: #ffffff;
+$black: #000000;
+$blue: #0D8EA1;
+$turqoise: #00F4FF;
+$turqoise-light: #bbeff2;
+$pink: #FA5FFE;
+$purple: #9932e3;
+$background-gradient: linear-gradient(90deg, rgba(1,24,38,1) 0%, rgba(5,33,55,1) 100%);
+$navbar-gradient: rgba(1, 24, 39, 0.9);
+$background-blue: #052137;
+$button-blue: #031421;
+
+/*
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--vt-c-black);
+    --color-background-soft: var(--vt-c-black-soft);
+    --color-background-mute: var(--vt-c-black-mute);
+
+    --color-border: var(--vt-c-divider-dark-2);
+    --color-border-hover: var(--vt-c-divider-dark-1);
+
+    --color-heading: var(--vt-c-text-dark-1);
+    --color-text: var(--vt-c-text-dark-2);
+  }
+}
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: normal;
+}
+
+body {
+    min-height: 100vh;
+    background-image: $background-gradient;
+    position: relative;
+    z-index: -1;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#tsparticles {
+    position: absolute;
+    z-index: 1;
+}
