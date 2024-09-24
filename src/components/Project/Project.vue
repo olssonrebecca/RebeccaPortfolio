@@ -69,7 +69,7 @@
                 </div>
             </div>
             <div class="project-item">
-                <img  src="/images/refood.png" />
+                <!--<img  src="/images/refood.png" />-->
                 <div class="project-text">
                     <h2>Master thesis</h2>
                     <div class="tech-row">
