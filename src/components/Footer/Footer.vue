@@ -14,7 +14,7 @@
         <div class="contact">
             <a href="https://www.linkedin.com/in/rebecca-olsson/" target="_blank" class="contact-icons" data-title="Visit Linked In"><LinkedInIcon /></a>
             <a href="mailto:olsson_rebecca@outlook.com" class="contact-icons" data-title="Send E-mail"><ContactIcon /></a>            
-            <a href="CV.pdf" class="contact-icons" download="CV_Rebecca_Olsson" data-title="Download resume"><DownloadIcon /></a>
+            <a href="../../../public/CV.pdf" class="contact-icons" download="CV_Rebecca_Olsson" data-title="Download resume"><DownloadIcon /></a>
         </div>
     </div>
 </template>
