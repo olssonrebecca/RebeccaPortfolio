@@ -1,0 +1,100 @@
+@import '../../assets/main.scss';
+
+.project-container {
+    padding: 100px;
+
+    @media only screen and (min-width: 1400px) {
+        padding: 100px 200px;
+    }
+
+    @media only screen and (max-width: 640px) {
+        padding: 100px 20px;
+    }
+
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        margin-bottom: 5px;
+    }
+
+    .purple-text {
+        color: $purple;
+    }
+
+    .project-table {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .project-item {
+        background-color: $button-blue;
+        width: 49%;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        z-index: 10;
+
+        @media only screen and (max-width: 900px) {
+            width: 100%;
+
+            img{
+                height: unset !important;
+            }
+        }
+
+        img {
+            height: 270px;
+            width: 100%;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+    }
+
+    .tech-row {
+        margin-bottom: 8px;
+    }
+
+    .tech-box {
+        background: rgb(256, 256, 256, 0.15);
+        padding: 4px 8px;
+        margin-right: 8px;
+        border-radius: 4px;
+        font-size: 13px;
+        color: $purple;
+        font-weight: 900;
+    }
+
+    .project-text {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    a {
+        background: rgb(256, 256, 256, 0.15);
+        text-decoration: none;
+        width: fit-content;
+        padding: 10px 15px;
+        color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+
+        svg{
+            margin: 0px 0px 0px 10px;
+        }
+    }
+    a:hover{
+        color: $purple;
+        font-weight: 900;
+
+        svg{
+            color: $purple;
+        }
+    }
+}
