@@ -14,7 +14,7 @@
             </div>
 
             <div class="project-item">
-                <img src="/images/ekn.PNG" />
+                <img src="/images/ekn.png" />
                 <div class="project-text">
                     <h2>EKN</h2>
                     <div class="tech-row">
