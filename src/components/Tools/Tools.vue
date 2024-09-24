@@ -2,6 +2,7 @@
     import SassIcon from '../icons/IconSass.vue';
     import EpiserverIcon from '../icons/IconEpiserver.vue';
     import GithubIcon from '../icons/IconGithub.vue';
+  
 </script>
 
 <template>
@@ -28,7 +29,7 @@
                 <p>Github</p>
             </div>
             <div class="tool-item">
-                <img src="../icons/Siteimprovepng.png" />
+                
                 <p>SiteImprove</p>
             </div>
             <div class="tool-item">
