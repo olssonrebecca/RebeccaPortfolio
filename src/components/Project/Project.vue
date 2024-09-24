@@ -14,7 +14,7 @@
             </div>
 
             <div class="project-item">
-                <!--<img src="/images/ekn.png"/>-->
+                <img src="/images/ekn.jpg"/>
                 <div class="project-text">
                     <h2>EKN</h2>
                     <div class="tech-row">
@@ -29,7 +29,7 @@
             </div>
 
             <div class="project-item">
-                <!--<img  src="../../../public/images/vaderstad.PNG" />-->
+              <img  src="/images/vaderstad.jpg" />
                 <div class="project-text">
                     <h2>Väderstad</h2>
                     <div class="tech-row">
