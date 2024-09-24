@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "tsparticles": "^3.5.0",
+    "tsparticles-slim": "^2.12.0",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3",
     "vue3-particles": "^2.12.0"
