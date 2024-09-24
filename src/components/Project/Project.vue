@@ -6,7 +6,7 @@
         <h1>My  <span class="purple-text">projects</span> </h1>
         <div class="project-table">
             <div class="project-item">
-                <img  src="../../../public/images/smtm.PNG" />
+                <!--<img  src="/images/smtm.PNG" />-->
                 <div class="project-text">
                     <h2>SMTM</h2>
                     <p>cookies, accessability, 5 sites</p>
@@ -14,7 +14,7 @@
             </div>
 
             <div class="project-item">
-                <img src="../../../public/images/ekn.PNG" />
+                <!--<img src="../../../public/images/ekn.PNG" />-->
                 <div class="project-text">
                     <h2>EKN</h2>
                     <div class="tech-row">
@@ -29,7 +29,7 @@
             </div>
 
             <div class="project-item">
-                <img  src="../../../public/images/vaderstad.PNG" />
+                <!--<img  src="../../../public/images/vaderstad.PNG" />-->
                 <div class="project-text">
                     <h2>Väderstad</h2>
                     <div class="tech-row">
@@ -44,7 +44,7 @@
             </div>
 
             <div class="project-item">
-                <img  src="../../../public/images/dukaten.PNG" />
+                <!--<img  src="/images/dukaten.PNG"/>-->
                 <div class="project-text">
                     <h2>Dukaten</h2>
                     <div class="tech-row">
@@ -57,7 +57,7 @@
 
             </div>
             <div class="project-item">
-                <img src="../../../public/images/dukaten.PNG" />
+                <!--<img src="../../../public/images/dukaten.PNG" />-->
                 <div class="project-text">
                     <h2>Master thesis</h2>
                     <div class="tech-row">
@@ -69,7 +69,7 @@
                 </div>
             </div>
             <div class="project-item">
-                <img  src="../../../public/images/refood.PNG" />
+                <!-- <img  src="../../../public/images/refood.PNG" />-->
                 <div class="project-text">
                     <h2>Master thesis</h2>
                     <div class="tech-row">

@@ -12,7 +12,7 @@
              </div>
             </div>
             <div class="home-image">
-                <img width="450"  src="/girl-coding.PNG" />
+                <img width="450"  src="/girlcoding.png" />
             </div>
         </div>
     </div>
