@@ -27,6 +27,10 @@
 
     h1 {
         text-transform: uppercase;
+
+        @media only screen and (max-width: 1100px) {
+            text-align: center;
+        }
     }
 
     .turqoise-text {
@@ -58,9 +62,9 @@
         min-width: 330px;
 
         @media only screen and (max-width: 1100px) {
-            margin-top: 40px;        
+            margin-top: 40px;
 
-            h1{
+            h1 {
                 text-align: center;
             }
         }
