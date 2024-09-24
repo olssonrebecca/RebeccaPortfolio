@@ -44,7 +44,7 @@
             </div>
 
             <div class="project-item">
-                <!--<img  src="/images/dukaten.PNG"/>-->
+                <img  src="/images/dukaten.jpg"/>
                 <div class="project-text">
                     <h2>Dukaten</h2>
                     <div class="tech-row">
@@ -57,7 +57,7 @@
 
             </div>
             <div class="project-item">
-                <!--<img src="../../../public/images/dukaten.PNG" />-->
+                <img src="/images/cambio.jpg" />
                 <div class="project-text">
                     <h2>Master thesis</h2>
                     <div class="tech-row">
@@ -65,11 +65,11 @@
                         <span class="tech-box">Dart</span><span class="tech-box">Microsoft SQL</span><span class="tech-box">Vue</span>
                     </div>
                     <p>Added a function</p>
-                    <a href="https://www.vaderstad.com/ca-en/">Visit site<OpenIcon /></a>
+                    <a href="MasterThesisCambio.pdf">View thesis<OpenIcon /></a>
                 </div>
             </div>
             <div class="project-item">
-                <!--<img  src="/images/refood.png" />-->
+                <img  src="/images/refood.jpg" />
                 <div class="project-text">
                     <h2>Master thesis</h2>
                     <div class="tech-row">
