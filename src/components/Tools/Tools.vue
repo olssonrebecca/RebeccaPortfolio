@@ -28,7 +28,7 @@
                 <p>Github</p>
             </div>
             <div class="tool-item">
-                <img src="../../../public/images/Siteimprove.PNG" />
+                <img src="/images/Siteimprove.PNG" />
                 <p>SiteImprove</p>
             </div>
             <div class="tool-item">
