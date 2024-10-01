@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
-    "\\public\\images",
     "\\src",
+    "\\src\\assets",
     "\\src\\components",
+    "\\src\\components\\About",
     "\\src\\components\\Home",
+    "\\src\\components\\NavBar",
     "\\src\\components\\Project",
-    "\\src\\components\\Tools",
-    "\\src\\views",
-    "\\src\\views\\HomeView"
+    "\\src\\components\\Services",
+    "\\src\\components\\Tools"
   ],
-  "SelectedNode": "\\public\\girlcoding.PNG",
+  "SelectedNode": "\\src\\assets\\base.scss",
   "PreviewInSolutionExplorer": false
 }

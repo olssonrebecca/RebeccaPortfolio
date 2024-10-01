@@ -2,6 +2,7 @@
     import HomeIcon from '../icons/IconHome.vue';
     import AboutIcon from '../icons/IconAbout.vue';
     import ToolsIcon from '../icons/IconTools.vue';
+    import ServicesIcon from '../icons/IconServices.vue';
     import ProjectsIcon from '../icons/IconProjects.vue';
     import HamburgerIcon from '../icons/IconHamburger.vue';
     import ArrowIcon from '../icons/IconArrow.vue';
@@ -112,6 +113,11 @@
                     <ToolsIcon />Tools
                 </a>
             </li>
+            <li class="nav-item">
+    <a class="nav-link services" href="#services">
+        <ServicesIcon />Services
+    </a>
+</li>
             <li class="nav-item">
                 <a class="nav-link project" href="#project">
                     <ProjectsIcon /> Projects

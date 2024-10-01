@@ -36,7 +36,7 @@
             </p>
         </div>
         <div class="facts-box">
-            <h1>Quick facts</h1>
+            <h2>Quick facts</h2>
             <ul>
                 <li><CodeIcon />IT Consultant, Web Development</li>
                 <li><BookIcon />M.sc. in Biomedical Engineering</li>

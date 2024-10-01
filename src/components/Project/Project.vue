@@ -3,7 +3,7 @@
 </script>
 <template>
     <div class="project-container">
-        <h1>My  <span class="purple-text">projects</span> </h1>
+        <h1>My  <span class="turqoise-text">projects</span> </h1>
         <div class="project-table">
             <div class="project-item">
                 <img src="/images/smtm.jpg" />
