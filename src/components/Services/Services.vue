@@ -16,8 +16,7 @@
             <div class="service-item service-item-first">
                 <h2>Development</h2>
                 <p>
-
-                    I am a Full-stack developer who's building and maintaining Websites with technologies such as HTML, CSS, Vue, JS, C# .Net, SQL and the CMS system Episerver. I deliver strong customer experiences through pre studies, development, testing and deployment.
+                   I am a Full-stack developer who's building and maintaining Websites with technologies such as HTML, Sass, Vue, JavaScript, C# .Net, Microsoft SQL and the CMS system Episerver. My strongest field is Front-End development with focus on user experience and accessability. I deliver strong customer experiences through pre studies, development, testing and deployment.
                     <br /><br />
                     I work hard to solve problems and to achieve a high quality. My driving force is to develop my knowledge and skills, and that is why I like coding. The possibilities are endless and I am very eager to learn more.
                 </p>
@@ -26,9 +25,10 @@
                 <img src="/images/team.png" />
             </div>
             <div class="service-item service-item-second">
-                <h2>Leadership</h2>
+                <h2>Teamwork</h2>
                 <p>
-                    With my experience of leadership and being a structured, perceptive and outgoing person, I am sure I will be a great leader or a cooperative team member. I have an eye for what needs to be done and seeing people's strengths, that makes me able to divide tasks that enhances the team.<br /><br />
+                    I am a team player that enjoys working closely with a team and with my social skills I communicate well with both customers and team members.<br/>
+                    With my experience of teamwork leadership and being a structured, perceptive and outgoing person, I am sure I will be a great leader or a cooperative team member. I have an eye for what needs to be done and seeing people's strengths, which makes me able to divide tasks that enhances the team.<br /><br />
                     I participated in a leadership program where I learned about leadership, presentation techniques, communication, feedback, gender equality and much more, and I am excited to adapt these tools in a team.
                 </p>
             </div>

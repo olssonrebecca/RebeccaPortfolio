@@ -43,8 +43,6 @@ INNAN DEPLOY:
 
 * Skriv About
 * Skriv projects
-* Skriv services
-* Gör Services responsive (column och ändra pilarna)
 * SE HUR DET SER UT I STOR SCREEN. 
 
 EFTER DEPLOY:
@@ -52,7 +50,10 @@ EFTER DEPLOY:
 * Move JS från main.js
 * Bryt ut let section ur js-functionen i main.js 
 * IStället för att importa alla main.scss, kan vi göra omvänt?
+* Padding i alla css-filer kan vi lägga det i main/base?
+* Padding 10% ist för 200px i stor skärm?
 * Byt hamburger-menyn till X vid klick. v-on:click?
+* Collapse mobilmeny när man klickar på något
 * Kontaktuppgifter för mobilvy
 * Lägg till en sida med resume så man kan välja att bara läsa
 
