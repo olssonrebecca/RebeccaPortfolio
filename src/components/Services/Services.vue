@@ -15,7 +15,12 @@
         <div class="information-section">
             <div class="service-item service-item-first">
                 <h2>Development</h2>
-                <p>Koda, främst front-end development för websites but I am eager to explore new fields.</p>
+                <p>
+
+                    I am a Full-stack developer who's building and maintaining Websites with technologies such as HTML, CSS, Vue, JS, C# .Net, SQL and the CMS system Episerver. I deliver strong customer experiences through pre studies, development, testing and deployment.
+                    <br /><br />
+                    I work hard to solve problems and to achieve a high quality. My driving force is to develop my knowledge and skills, and that is why I like coding. The possibilities are endless and I am very eager to learn more.
+                </p>
             </div>
             <div class="img-item">
                 <img src="/images/team.png" />
@@ -23,12 +28,11 @@
             <div class="service-item service-item-second">
                 <h2>Leadership</h2>
                 <p>
-                    Ta med att jag varit med i GROW. Ser folks styrkor och framhäver ett team. Ett mål att få leda ett team. Har bra egenskaper för det och goda verktyg i bagaget.
+                    With my experience of leadership and being a structured, perceptive and outgoing person, I am sure I will be a great leader or a cooperative team member. I have an eye for what needs to be done and seeing people's strengths, that makes me able to divide tasks that enhances the team.<br /><br />
+                    I participated in a leadership program where I learned about leadership, presentation techniques, communication, feedback, gender equality and much more, and I am excited to adapt these tools in a team.
                 </p>
             </div>
         </div>
-
-
     </div>
 </template>
 

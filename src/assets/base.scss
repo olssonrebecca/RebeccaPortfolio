@@ -40,7 +40,33 @@ body {
     background-repeat: no-repeat;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 #tsparticles {
     position: absolute;
     z-index: 1;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: $background-blue;
+    border: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(250, 95, 254, 0.8);
+    border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $pink;
+    border-radius: 12px;
 }

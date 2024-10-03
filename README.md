@@ -40,12 +40,12 @@ npm run lint
 ```
 
 INNAN DEPLOY:
-* Icon för site
+
 * Skriv About
-* Skriv project
-* Scroll smooth
+* Skriv projects
+* Skriv services
+* Gör Services responsive (column och ändra pilarna)
 * SE HUR DET SER UT I STOR SCREEN. 
-* Lägg till component: SERVICES?? web-development, leadership, full-stack
 
 EFTER DEPLOY:
 * bootstrap SCROLLSPY istället för min JS?? se sparad länk
@@ -53,7 +53,6 @@ EFTER DEPLOY:
 * Bryt ut let section ur js-functionen i main.js 
 * IStället för att importa alla main.scss, kan vi göra omvänt?
 * Byt hamburger-menyn till X vid klick. v-on:click?
-* Scroll-indikatorn till hö: gör rosa och fin
 * Kontaktuppgifter för mobilvy
 * Lägg till en sida med resume så man kan välja att bara läsa
 
