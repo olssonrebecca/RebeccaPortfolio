@@ -19,8 +19,10 @@
             </div>
 
             <div class="tool-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/slack/slack-original.svg" />
-                <p>Slack</p>
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" />
+
+                <p>Visual Studio</p>
             </div>
             <div class="tool-item">
                 <GithubIcon />
