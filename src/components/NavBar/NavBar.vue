@@ -66,7 +66,7 @@
                                 <div class="NavigationMenuLinkColumn">
                                     <NavigationMenuListItem href="https://www.linkedin.com/in/rebecca-olsson/" target="_blanc"
                                                             title="Linked In">
-                                        <LinkedInIcon /> You can find me on Linked In.
+                                        <LinkedInIcon /> Visit my Linked In.
                                     </NavigationMenuListItem>
                                     <NavigationMenuListItem href="mailto:olsson_rebecca@outlook.com"
                                                             title="Email">
@@ -74,7 +74,7 @@
                                     </NavigationMenuListItem>
                                     <NavigationMenuListItem 
                                                             title="Phone">
-                                        <PhoneIcon /> 778-793 83 93
+                                        <PhoneIcon /> +1778-793 83 93
                                     </NavigationMenuListItem>
                                     <NavigationMenuListItem href="/Resume_Rebecca_Olsson.pdf"  download="Resume_Rebecca_Olsson.pdf"
                                                             title="Resume">

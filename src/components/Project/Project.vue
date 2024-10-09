@@ -64,7 +64,6 @@
                         <span class="tech-box">Microsoft SQL</span>
                     </div>
                     <p>I built a user interface in Vue where the app owner could sign in to schedule, post and delete push notifications to their app. Data were stored in Microsoft SQL. </p>
-                    <a href="https://www.vaderstad.com/ca-en/" target="_blank">Visit site<OpenIcon /></a>
                 </div>
 
             </div>
