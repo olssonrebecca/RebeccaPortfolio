@@ -37,9 +37,9 @@
 <template>
     <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-scroll">
         <div class="container-fluid">
-            <v-btn class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <HamburgerIcon />
-            </v-btn>
+            </button>
      
             <NavigationMenuRoot v-model="currentTrigger"
                                 class="NavigationMenuRoot">

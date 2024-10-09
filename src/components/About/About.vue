@@ -16,7 +16,7 @@
             <h1>Let me  <span class="turqoise-text">introduce</span> myself</h1>
             <p>
                 My name is Rebecca Olsson, I am 29 years old and come from Sweden.<br />
-                I fell in love with coding when I was studying to a M.Sc. in Biomedical Engineering. <br /> <br />When I graduated I started to work as an IT Consultant within Webdevelopment at <a href="https://www.knowit.eu/">Knowit</a>. <br />
+                I fell in love with coding when I was studying to a M.Sc. in Biomedical Engineering. <br /> <br />When I graduated I started to work as an IT Consultant within Web development at <a href="https://www.knowit.eu/">Knowit</a>. <br />
                 Combining my coding knowledge with my social skills is something I found very motivating.
 
                 <br /><br />

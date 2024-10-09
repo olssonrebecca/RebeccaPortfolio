@@ -8,6 +8,10 @@ app.use(router)
 app.use(Particles)
 app.mount('#app')
 
+//Collapse hamburger menu on click
+$('.nav-link').on('click', function () {
+    $('.navbar-toggler').click();
+});
 
 
 //responsive navbar
