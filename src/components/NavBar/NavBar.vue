@@ -76,7 +76,7 @@
                                                             title="Phone">
                                         <PhoneIcon /> 778-793 83 93
                                     </NavigationMenuListItem>
-                                    <NavigationMenuListItem href="/CV.pdf"  download="CV_Rebecca_Olsson.pdf"
+                                    <NavigationMenuListItem href="/Resume_Rebecca_Olsson.pdf"  download="Resume_Rebecca_Olsson.pdf"
                                                             title="Resume">
                                         <DownloadIcon />  Download my resume!
                                     </NavigationMenuListItem>
