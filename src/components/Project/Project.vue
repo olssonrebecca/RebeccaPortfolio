@@ -45,9 +45,9 @@
                     <div class="tech-row">
                         <span class="tech-box">Episerver</span>
                         <span class="tech-box">HTML</span>
-                        <span class="tech-box">CSS</span>
+                        <span class="tech-box">Sass</span>
                     </div>
-                    <p>Development and management of the website. Developed a new campaign page in CSS, HTML with content from Episerver. Required good communication with the customers regarding content and deploy.</p>
+                    <p>Development and management of the website. Developed a new campaign page in Sass and HTML with content from Episerver. Required good communication with the customers regarding content and deploy.</p>
                     <a href="https://www.ekn.se/en/" target="_blank">Visit site<OpenIcon /></a>
                 </div>
 

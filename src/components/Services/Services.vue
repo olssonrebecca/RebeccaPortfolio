@@ -27,8 +27,8 @@
             <div class="service-item service-item-second">
                 <h2>Teamwork</h2>
                 <p>
-                    I am a team player that enjoys working closely with a team and with my social skills I communicate well with both clients and the team.<br/>
-                    With my experience of teamwork and leadership and being a structured, perceptive and outgoing person, I am sure I will be a great leader or a cooperative team member. I have an eye for what needs to be done and seeing people's strengths, which makes me able to divide tasks that enhances the team.<br /><br />
+                    I am a team player that enjoys working closely with a team and with my social skills I communicate well with both clients and the team.<br />
+                    As a structured, perceptive and outgoing person, with experience of teamwork and leadership, I am sure I will be a great leader or a cooperative team member. I have an eye for what needs to be done and seeing people's strengths, which makes me able to divide tasks that enhances the team.<br /><br />
                     I participated in a leadership program where I learned about leadership, presentation techniques, communication, feedback, gender equality and much more, and I am excited to adapt these tools in a team.
                 </p>
             </div>
