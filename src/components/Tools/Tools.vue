@@ -1,6 +1,5 @@
 <script setup>
     import SassIcon from '../icons/IconSass.vue';
-    import EpiserverIcon from '../icons/IconEpiserver.vue';
     import GithubIcon from '../icons/IconGithub.vue';
 </script>
 
@@ -12,22 +11,31 @@
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" />
                 <p>Jira</p>
             </div>
-            <div class="tool-item">
+            <!--<div class="tool-item">
 
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/confluence/confluence-original.svg" />
-                <p>Confluence</p>
-            </div>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/confluence/confluence-original.svg" />
+        <p>Confluence</p>
+    </div>
 
-            <div class="tool-item">
+    <div class="tool-item">
 
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" />
 
-                <p>Visual Studio</p>
-            </div>
+        <p>Visual Studio</p>
+    </div>
+        -->
             <div class="tool-item">
                 <GithubIcon />
 
                 <p>Github</p>
+            </div>
+            <div class="tool-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
+                <p>Postman</p>
+            </div>
+            <div class="tool-item">
+                <img src="/images/Optimizely_Logo.png" />
+                <p>Optimizely</p>
             </div>
             <div class="tool-item">
                 <img src="/images/siteimprove.png" />
@@ -42,32 +50,38 @@
                 <p>CSS</p>
             </div>
             <div class="tool-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />
-                <p>Sass</p>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                <p>JavaScript</p>
             </div>
             <div class="tool-item">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
                 <p>Vue</p>
             </div>
             <div class="tool-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
-                <p>Bootstrap</p>
-            </div>
-            <div class="tool-item">
-                <EpiserverIcon />
-                <p>Episerver</p>
-            </div>
-            <div class="tool-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-                <p>JavaScript</p>
-            </div>
-            <div class="tool-item">
-
-
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
 
                 <p>NodeJS</p>
             </div>
+            <div class="tool-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />
+                <p>Sass</p>
+            </div>
+
+            <div class="tool-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
+                <p>Bootstrap</p>
+            </div>
+            <div class="tool-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/webpack/webpack-original.svg" />
+                <p>Webpack</p>
+            </div>
+
+
+            <div class="tool-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg" />
+                <p>JQuery</p>
+            </div>
+
             <div class="tool-item">
                 <img src="../icons/csharp.png" />
                 <p>C#</p>
@@ -95,10 +109,7 @@
             </div>
 
 
-            <div class="tool-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
-                <p>Postman</p>
-            </div>
+
             <div class="tool-item">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" />
                 <p>Dart</p>

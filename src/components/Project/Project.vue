@@ -10,7 +10,7 @@
                 <div class="project-text">
                     <h2>SMTM</h2>
                     <div class="tech-row">
-                        <span class="tech-box">Episerver</span>
+                        <span class="tech-box">Optimizely</span>
                         <span class="tech-box">CookieBot</span>
                         <span class="tech-box">Accessability</span>
                     </div>
@@ -24,7 +24,7 @@
                 <div class="project-text">
                     <h2>V&auml;derstad</h2>
                     <div class="tech-row">
-                        <span class="tech-box">Episerver</span>
+                        <span class="tech-box">Optimizely</span>
                         <span class="tech-box">JavaScript</span>
                         <span class="tech-box">Vue</span>
                         <span class="tech-box">Microsoft SQL</span>
@@ -43,11 +43,11 @@
                 <div class="project-text">
                     <h2>EKN</h2>
                     <div class="tech-row">
-                        <span class="tech-box">Episerver</span>
+                        <span class="tech-box">Optimizely</span>
                         <span class="tech-box">HTML</span>
                         <span class="tech-box">Sass</span>
                     </div>
-                    <p>Development and management of the website. Developed a new campaign page in Sass and HTML with content from Episerver. Required good communication with the customers regarding content and deploy.</p>
+                    <p>Development and management of the website. Developed a new campaign page in Sass and HTML with content from Optimizely. Required good communication with the customers regarding content and deploy.</p>
                     <a href="https://www.ekn.se/en/" target="_blank">Visit site<OpenIcon /></a>
                 </div>
 

@@ -16,7 +16,7 @@
             <div class="service-item service-item-first">
                 <h2>Development</h2>
                 <p>
-                   I am a Full-stack developer who's building and maintaining Websites with technologies such as HTML, Sass, Vue, JavaScript, C# .Net, Microsoft SQL and the CMS system Episerver. My strongest field is Front-End development with focus on user experience and accessability. I deliver strong customer experiences through pre studies, development, testing and deployment.
+                    I am a Full-stack developer who's building and maintaining Websites with technologies such as HTML, Sass, Vue, JavaScript, C# .Net, Microsoft SQL and the CMS Optimizely. My strongest field is Front-End development with focus on user experience and accessability. I deliver strong customer experiences through pre studies, development, testing and deployment.
                     <br /><br />
                     I work hard to solve problems and to achieve a high quality. My driving force is to develop my knowledge and skills, and that is why I like coding. The possibilities are endless and I am very eager to learn more.
                 </p>
