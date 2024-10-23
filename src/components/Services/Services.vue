@@ -18,7 +18,7 @@
                 <p>
                     I am a Full-stack developer who's building and maintaining Websites with technologies such as HTML, Sass, Vue, JavaScript, C# .Net, Microsoft SQL and the CMS Optimizely. My strongest field is Front-End development with focus on user experience and accessability. I deliver strong customer experiences through pre studies, development, testing and deployment.
                     <br /><br />
-                    I work hard to solve problems and to achieve a high quality. My driving force is to develop my knowledge and skills, and that is why I like coding. The possibilities are endless and I am very eager to learn more.
+                    I thrive in fast-paced environments, where I get to use my organizational skills and attention to detail to prioritize tasks and manage time effectively. I work hard to solve problems and to achieve a high quality. My driving force is to develop my knowledge and skills, and that is why I like coding. The possibilities are endless and I am very eager to learn more.
                 </p>
             </div>
             <div class="img-item">
@@ -27,9 +27,12 @@
             <div class="service-item service-item-second">
                 <h2>Teamwork</h2>
                 <p>
-                    I am a team player that enjoys working closely with a team and with my social skills I communicate well with both clients and the team.<br />
-                    As a structured, perceptive and outgoing person, with experience of teamwork and leadership, I am sure I will be a great leader or a cooperative team member. I have an eye for what needs to be done and seeing people's strengths, which makes me able to divide tasks that enhances the team.<br /><br />
-                    I participated in a leadership program where I learned about leadership, presentation techniques, communication, feedback, gender equality and much more, and I am excited to adapt these tools in a team.
+                    I am a cooperative team player who believes that diverse perspectives lead to the best outcomes. With strong social skills, I communicate effectively with both colleagues and clients to understand their needs. I seek to be part of a supportive team that fosters collaboration and encourages growth to achieve shared and ambitious goals.
+                    <br /><br />
+                    As a structured, perceptive and outgoing person I easily recognize people's strengths,  allowing me to seek help, empower others, and delegate tasks to enhance team performance. With these strengths and tools I gained from a leadership program, I believe that I can be a great team leader as well.
+                    <!-- I am a team player that enjoys working closely with a team and with my social skills I communicate well with both clients and the team.<br />
+    As a structured, perceptive and outgoing person, with experience of teamwork and leadership, I am sure I will be a great leader or a cooperative team member. I have an eye for what needs to be done and seeing people's strengths, which makes me able to divide tasks that enhances the team.<br /><br />
+    I participated in a leadership program where I learned about leadership, presentation techniques, communication, feedback, gender equality and much more, and I am excited to adapt these tools in a team.-->
                 </p>
             </div>
         </div>
