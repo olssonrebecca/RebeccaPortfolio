@@ -16,27 +16,25 @@
             <h1>Let me  <span class="turqoise-text">introduce</span> myself</h1>
             <p>
                 My name is Rebecca Olsson, I am 29 years old and come from Sweden.<br />
-                I fell in love with coding when I was studying to a M.Sc. in Biomedical Engineering. <br /> <br />When I graduated I started to work as an IT Consultant within Web development at <a href="https://www.knowit.eu/">Knowit</a>. <br />
-                Combining my coding knowledge with my social skills is something I found very motivating.
+                I moved to Canada fall 2022 and I recently recieved my Permanent Residency.<br /><br />
+                I fell in love with coding when I was studying to a M.Sc. in Biomedical Engineering.<br />When I graduated I started to work as an IT Consultant within Web development at <a href="https://www.knowit.eu/">Knowit</a>. <br />
+                Combining my coding knowledge with my social skills is something I find very motivating.
 
                 <br /><br />
-                I moved to Canada two years ago and I am currently employed as a Community Manager at <a href="https://www.barbermedia.ca/">Barber Media</a> and <a href="https://www.appscanada.ca/">Canada's' Best Apps</a>.
-
-                <br />
-                <br />
-                When I am not working I like to do outdoor activities such as skiing, downhill biking, hiking and camping. I'm also enjoying a good beer, game nights with friends and baking!
+              
+                When I am not working I like to do outdoor activities such as skiing, downhill biking, hiking and camping.<br /> I'm also enjoying concerts (indie and rock), game nights with friends and baking!
 
             </p>
         </div>
         <div class="facts-box">
             <h2>Quick facts</h2>
             <ul>
-                <li><BookIcon />M.sc. in Biomedical Engineering</li>
                 <li><CodeIcon />IT Consultant, Web Development</li>
-                <li><WorkIcon />Community Manager</li>
+                <li><BookIcon />M.sc. in Biomedical Engineering</li>
+                <li><FlagIcon />Swedish Citizen, Canadian PR</li>
                 <li><AboutIcon />Structured, Reliable, Outgoing</li>
-                <li><HeartIcon />Client contact, teamwork</li>
-                <li> <GeotagIcon />Whistler</li>
+                <li><HeartIcon />Coding, client contact, teamwork</li>
+                <li> <GeotagIcon />Whistler, Canada</li>
                 <!--<li><BirthdayIcon />29 y/o</li>
     <li><FlagIcon />Swedish</li>-->
             </ul>

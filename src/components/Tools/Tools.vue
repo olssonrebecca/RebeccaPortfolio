@@ -7,40 +7,7 @@
     <div class="tools-component">
         <h1>Tools <span class="pink-text">&</span> Technologies</h1>
         <div class="tool-table">
-            <div class="tool-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" />
-                <p>Jira</p>
-            </div>
-            <!--<div class="tool-item">
 
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/confluence/confluence-original.svg" />
-        <p>Confluence</p>
-    </div>
-
-    <div class="tool-item">
-
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" />
-
-        <p>Visual Studio</p>
-    </div>
-        -->
-            <div class="tool-item">
-                <GithubIcon />
-
-                <p>Github</p>
-            </div>
-            <div class="tool-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
-                <p>Postman</p>
-            </div>
-            <div class="tool-item">
-                <img src="/images/Optimizely_Logo.png" />
-                <p>Optimizely</p>
-            </div>
-            <div class="tool-item">
-                <img src="/images/siteimprove.png" />
-                <p>SiteImprove</p>
-            </div>
             <div class="tool-item">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
                 <p>HTML</p>
@@ -117,6 +84,41 @@
             <div class="tool-item">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" />
                 <p>Flutter</p>
+            </div>
+            <div class="tool-item">
+                <img src="/images/Optimizely_Logo.png" />
+                <p>Optimizely</p>
+            </div>
+            <div class="tool-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" />
+                <p>Jira</p>
+            </div>
+            <!--<div class="tool-item">
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/confluence/confluence-original.svg" />
+        <p>Confluence</p>
+    </div>
+
+    <div class="tool-item">
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" />
+
+        <p>Visual Studio</p>
+    </div>
+        -->
+            <div class="tool-item">
+                <GithubIcon />
+
+                <p>Github</p>
+            </div>
+            <div class="tool-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
+                <p>Postman</p>
+            </div>
+
+            <div class="tool-item">
+                <img src="/images/siteimprove.png" />
+                <p>SiteImprove</p>
             </div>
         </div>
     </div>
