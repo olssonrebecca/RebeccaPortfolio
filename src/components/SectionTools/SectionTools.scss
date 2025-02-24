@@ -1,0 +1,43 @@
+.tools-component {
+    padding: 100px;
+
+    @media only screen and (min-width: 1400px) {
+        padding: 100px 10%;
+    }
+
+    @media only screen and (min-width: 2800px) {
+        padding: 100px 15%;
+    }
+
+    @media only screen and (max-width: 640px) {
+        padding: 100px 20px;
+    }
+
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+
+    svg {
+        margin-left: 10px;
+        font-size: 45px;
+    }
+}
+
+.pink-text {
+    color: $pink;
+}
+
+.tool-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+
+    @media only screen and (max-width: 990px) {
+        justify-content: center;
+        gap: 20px;
+    }
+}

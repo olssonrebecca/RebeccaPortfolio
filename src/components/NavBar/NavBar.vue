@@ -25,11 +25,38 @@
         NavigationMenuViewport,
     } from 'radix-vue'
 
-    import NavigationMenuListItem from './NavigationMenuListItem.vue'
+    import NavigationMenuListItem from '../ItemNavBar/ItemNavBar.vue'
 
     const currentTrigger = ref('')
 
+    import { onMounted, onBeforeUnmount } from 'vue';
 
+    onMounted(() => {
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('header nav a');
+
+        const handleScroll = () => {
+            sections.forEach((sec) => {
+                const top = window.scrollY;
+                const offset = sec.offsetTop;
+                const height = sec.offsetHeight;
+                const id = sec.getAttribute('id');
+
+                if (top >= offset && top < offset + height) {
+                    navLinks.forEach((links) => {
+                        links.classList.remove('active');
+                        document.querySelector(`header nav a[href*='${id}']`)?.classList.add('active');
+                    });
+                }
+            });
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        onBeforeUnmount(() => {
+            window.removeEventListener('scroll', handleScroll);
+        });
+    });
 
 </script>
 
@@ -98,27 +125,27 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link home" href="#home">
+                <a class="nav-link home" href="#sectionStart">
                     <HomeIcon />Home <span class="sr-only">(current)</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link about" href="#about">
+                <a class="nav-link about" href="#sectionAbout">
                     <AboutIcon />About
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link services" href="#services">
+                <a class="nav-link services" href="#sectionServices">
                     <ServicesIcon />Services
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link tools" href="#tools">
+                <a class="nav-link tools" href="#sectionTools">
                     <ToolsIcon />Tools
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link project" href="#project">
+                <a class="nav-link project" href="#sectionProjects">
                     <ProjectsIcon /> Projects
                 </a>
             </li>

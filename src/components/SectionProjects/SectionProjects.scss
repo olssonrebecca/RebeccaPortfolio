@@ -1,0 +1,36 @@
+.project-container {
+    padding: 100px;
+
+    @media only screen and (min-width: 1400px) {
+        padding: 100px 10%;
+    }
+
+    @media only screen and (min-width: 2800px) {
+        padding: 100px 15%;
+    }
+
+    @media only screen and (max-width: 640px) {
+        padding: 100px 20px;
+    }
+
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        margin-bottom: 5px;
+    }
+
+    .turqoise-text {
+        color: $turqoise;
+    }
+
+    .project-table {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,33 @@
+.tool-item {
+    border: 1px solid rgba(250, 95, 254, 0.85);
+    padding: 12px 8px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    min-width: 18%;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+
+    @media only screen and (max-width: 1160px) {
+        min-width: 23%;
+    }
+
+    @media only screen and (max-width: 990px) {
+        width: 46%;
+        height: 70px;
+    }
+
+    p {
+        width: 100%;
+        text-align: center;
+    }
+
+    img {
+        max-width: 45px;
+        margin-left: 10px;
+
+        @media only screen and (max-width: 600px) {
+            max-width: 30px;
+            margin-left: 5px;
+        }
+    }
+}

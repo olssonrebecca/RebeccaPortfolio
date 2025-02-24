@@ -1,0 +1,68 @@
+.project-item {
+    background-color: $background-blue;
+    width: 48.5%;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    z-index: 10;
+    box-shadow: 0px 0px 15px -5px rgb(0, 244, 255), 25px 0px 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
+
+    @media only screen and (max-width: 900px) {
+        width: 100%;
+
+        img {
+            height: unset !important;
+        }
+    }
+
+    img {
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .tech-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tech-box {
+        margin-bottom: 8px;
+        background: rgb(256, 256, 256, 0.15);
+        padding: 4px 8px;
+        margin-right: 8px;
+        border-radius: 4px;
+        font-size: 13px;
+        color: $pink;
+        font-weight: 900;
+    }
+
+    .project-text {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    a {
+        background: rgb(256, 256, 256, 0.15);
+        text-decoration: none;
+        width: fit-content;
+        padding: 10px 15px;
+        color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+
+        svg {
+            margin: 0px 0px 0px 10px;
+        }
+    }
+
+    a:hover {
+        color: $pink;
+        font-weight: 900;
+
+        svg {
+            color: $pink;
+        }
+    }
+}

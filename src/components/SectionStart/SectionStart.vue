@@ -1,5 +1,5 @@
 <template>
-    <div class="start-component">
+    <div class="start-section">
         <div class="start-background"></div>
         <div class="start-container">
             <div class="start-header">
@@ -9,10 +9,10 @@
                     <span class="txt-rotate"
                           data-period="2000"
                           data-rotate='[ "< Front-End Developer />", "< Full-Stack Developer />", "< IT Consultant />","< Web Developer />" ]'></span>
-             </div>
+                </div>
             </div>
             <div class="start-image">
-                <img width="450"  src="/girlcoding.png" alt="Girl coding" />
+                <img width="450" src="/girlcoding.png" alt="Girl coding" />
             </div>
         </div>
     </div>

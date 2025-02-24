@@ -16,6 +16,3 @@
         <Footer />
     </footer>
 </template>
-
-
-<style src="./assets/main.scss"></style>

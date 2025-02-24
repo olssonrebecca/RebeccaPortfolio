@@ -1,4 +1,4 @@
-<script setup> 
+<script setup>
     import GeotagIcon from '../icons/IconGeotag.vue';
     import BookIcon from '../icons/IconBook.vue';
     import BirthdayIcon from '../icons/IconBirthday.vue';
@@ -11,19 +11,16 @@
 </script>
 
 <template>
-    <div class="about-component">
-        <div class="information-section">
+    <div class="about-section">
+        <div class="about-information">
             <h1>Let me  <span class="turqoise-text">introduce</span> myself</h1>
             <p>
                 My name is Rebecca Olsson, I am 29 years old and come from Sweden.<br />
                 I moved to Canada fall 2022 and I recently recieved my Permanent Residency.<br /><br />
-                I fell in love with coding when I was studying to a M.Sc. in Biomedical Engineering.<br />When I graduated I started to work as an IT Consultant within Web development at <a href="https://www.knowit.eu/">Knowit</a>. <br />
+                I fell in love with coding when I was studying to a M.Sc. in Biomedical Engineering.<br />When I graduated I started to work as an IT Consultant within Web development at <a href="https://www.knowit.eu/" target="_blank" rel="noopener noreferrer">Knowit</a>. <br />
                 Combining my coding knowledge with my social skills is something I find very motivating.
-
                 <br /><br />
-              
                 When I am not working I like to do outdoor activities such as skiing, downhill biking, hiking and camping.<br /> I'm also enjoying concerts (indie and rock), game nights with friends and baking!
-
             </p>
         </div>
         <div class="facts-box">
@@ -35,11 +32,9 @@
                 <li><AboutIcon />Structured, Reliable, Outgoing</li>
                 <li><HeartIcon />Coding, client contact, teamwork</li>
                 <li> <GeotagIcon />Whistler, Canada</li>
-                <!--<li><BirthdayIcon />29 y/o</li>
-    <li><FlagIcon />Swedish</li>-->
+                <li><BirthdayIcon />29 y/o</li>
+                <!-- <li><FlagIcon />Swedish</li>-->
             </ul>
         </div>
     </div>
 </template>
-
-<style src="./About.scss"></style>
