@@ -24,7 +24,6 @@
         NavigationMenuTrigger,
         NavigationMenuViewport,
     } from 'radix-vue'
-    import './styles.scss'
 
     import NavigationMenuListItem from './NavigationMenuListItem.vue'
 
@@ -130,5 +129,3 @@
         </div>
 </nav>
 </template>
-
-<style src="./NavBar.scss"></style>

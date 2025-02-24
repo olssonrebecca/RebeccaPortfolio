@@ -1,5 +1,5 @@
 <script setup>
-    import Home from '../../components/Home/Home.vue';
+    import SectionStart from '../../components/SectionStart/SectionStart.vue';
     import About from '../../components/About/About.vue';
     import Services from '../../components/Services/Services.vue';
     import Tools from '../../components/Tools/Tools.vue';
@@ -7,7 +7,7 @@
 </script>
 
 <template>
-    <section id="home"><Home /></section>
+    <section id="sectionStart"><SectionStart /></section>
     <section id="about"><About /></section>
     <section id="services"><Services /></section>
     <section id="tools"><Tools /></section>

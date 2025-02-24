@@ -3,12 +3,8 @@
     import NavBar from './components/NavBar/NavBar.vue'
     import CustomParticles from "./components/Particles/Particles.vue"
     import Footer from "./components/Footer/Footer.vue";
+    import './assets/main.scss';
 </script>
-
-<style>
-    @import './assets/main.scss';
-</style>
- 
 
 <template>
     <header>
@@ -20,3 +16,6 @@
         <Footer />
     </footer>
 </template>
+
+
+<style src="./assets/main.scss"></style>
