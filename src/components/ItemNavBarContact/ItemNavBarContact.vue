@@ -6,6 +6,7 @@
     import ContactIcon from '../icons/IconContact.vue'
     import DownloadIcon from '../icons/IconDownload.vue'
     import PhoneIcon from '../icons/IconPhone.vue'
+    import GitHubIcon from '../icons/IconGithub.vue';
     import ItemNavBarContactLink from '../ItemNavBarContactLink/ItemNavBarContactLink.vue'
 
     const currentTrigger = ref('')
@@ -35,14 +36,17 @@
                             <ItemNavBarContactLink href="https://www.linkedin.com/in/rebecca-olsson/" target="_blanc" title="Linked In">
                                 <LinkedInIcon /> Visit my Linked In.
                             </ItemNavBarContactLink>
+                            <ItemNavBarContactLink href="/Resume_Rebecca_Olsson.pdf" download="Resume_Rebecca_Olsson.pdf" title="Resume">
+                                <DownloadIcon /> Download my resume!
+                            </ItemNavBarContactLink>
+                            <ItemNavBarContactLink href="https://github.com/olssonrebecca/RebeccaPortfolio/" target="_blanc" title="GitHub">
+                                <GitHubIcon /> Check out my code.
+                            </ItemNavBarContactLink>
                             <ItemNavBarContactLink href="mailto:olsson_rebecca@outlook.com" title="Email">
                                 <ContactIcon /> Olsson_Rebecca@outlook.com
                             </ItemNavBarContactLink>
                             <ItemNavBarContactLink title="Phone">
                                 <PhoneIcon /> +1778-793 83 93
-                            </ItemNavBarContactLink>
-                            <ItemNavBarContactLink href="/Resume_Rebecca_Olsson.pdf" download="Resume_Rebecca_Olsson.pdf" title="Resume">
-                                <DownloadIcon /> Download my resume!
                             </ItemNavBarContactLink>
                         </div>
                     </ul>

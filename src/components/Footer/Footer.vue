@@ -2,6 +2,7 @@
     import LinkedInIcon from '../icons/IconLinkedIn.vue';
     import ContactIcon from '../icons/IconContact.vue';
     import DownloadIcon from '../icons/IconDownload.vue';
+    import GitHubIcon from '../icons/IconGithub.vue';
     import FooterLink from '../ItemFooterLink/ItemFooterLink.vue';
 </script>
 <template>
@@ -22,6 +23,9 @@
                              title="Download Resume"
                              :iconComponent="DownloadIcon"
                              download="Resume_Rebecca_Olsson.pdf" />
+                <FooterLink href="https://github.com/olssonrebecca/RebeccaPortfolio/"
+                            title="View code"
+                            :iconComponent="GitHubIcon"/>
             </div>
         </div>
 </template>
