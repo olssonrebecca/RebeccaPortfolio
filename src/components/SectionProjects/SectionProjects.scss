@@ -33,4 +33,84 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
+
+    @media only screen and (max-width: 640px) {
+        .carousel {
+            height: 600px;
+
+            &__prev {
+                margin: 0px;
+            }
+
+            &__next {
+                margin: 0px;
+            }
+        }
+    }
+
+    .carousel {
+        width: 100%;
+
+        &__item {
+
+            @media only screen and (min-width: 1100px) {
+                transform: translateX(calc(50% + 10px));
+            }
+
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            display: flex;
+        }
+
+        &__slide {
+            &--prev {
+                display: none;
+            }
+        }
+
+        &__prev {
+            background: $button-blue;
+            margin-left: -50px;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+
+            svg {
+                margin: 5px 7px 5px 5px;
+            }
+        }
+
+        &__next {
+            background: $button-blue;
+            margin-right: -50px;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+
+            svg {
+                margin: 5px 5px 5px 7px;
+            }
+
+            @media only screen and (max-width: 650px) {
+                transform: translateX(calc(50% - 52px)) !important;
+            }
+        }
+
+        &__icon {
+            fill: $turqoise;
+        }
+
+        &__icon:hover {
+            fill: $pink;
+        }
+
+        &__pagination-button {
+            background-color: $black;
+
+            &--active {
+                background-color: $turqoise;
+            }
+        }
+    }
 }
