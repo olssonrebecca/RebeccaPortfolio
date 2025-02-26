@@ -63,17 +63,14 @@
         const width = window.innerWidth;
         if (width < 640) {
             dir.value = 'ttb';
-            mouseDrag.value = false;
             itemsToShow.value = 1; // Show 1 item on small screens (mobile)
         }
         else if (width < 1100) {
             dir.value = '';
-            mouseDrag.value = true;
             itemsToShow.value = 1; // Show 1 item on small screens (mobile)
         }
         else {
             dir.value = '';
-            mouseDrag.value = true;
             itemsToShow.value = 2; // Show 2.5 items on larger screens (desktop)
         }
     }
@@ -92,7 +89,7 @@
     // Define the carousel config, dynamically using itemsToShow
     const carouselConfig = ref({
         dir,
-        mouseDrag,
+        touchDrag: false,
         itemsToShow,
         wrapAround: true,
         activeIndex: 0,
