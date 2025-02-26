@@ -8,7 +8,7 @@
                 <div class="animated-text">
                     <span class="txt-rotate"
                           data-period="2000"
-                          data-rotate='[ "< Front-End Developer />", "< Full-Stack Developer />", "< IT Consultant />","< Web Developer />" ]'></span>
+                          data-rotate='[ "< Full-Stack Developer />", "< IT Consultant />", "< Front-End Developer />", "< Web Developer />" ]'></span>
                 </div>
             </div>
             <div class="start-image">
