@@ -10,6 +10,7 @@
     import HamburgerIcon from '../icons/IconHamburger.vue';
     import ArrowIcon from '../icons/IconArrow.vue';
     import xIcon from '../icons/IconX.vue';
+    import ContactIcon from '../icons/IconContact.vue'
 
     import { onMounted, onBeforeUnmount } from 'vue'
 
@@ -60,6 +61,7 @@
                         <ItemNavBarLink label="Services" href="#sectionServices" :icon="ServicesIcon" />
                         <ItemNavBarLink label="Tools" href="#sectionTools" :icon="ToolsIcon" />
                         <ItemNavBarLink label="Projects" href="#sectionProjects" :icon="ProjectsIcon" />
+                    <ItemNavBarLink label="Contact" href="#sectionContact" :icon="ContactIcon" />
                     </ul>
                 </div>
             </div>

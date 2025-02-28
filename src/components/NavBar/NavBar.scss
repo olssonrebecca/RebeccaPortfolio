@@ -1,5 +1,9 @@
-.container-fluid{
+.container-fluid {
     display: flex;
+
+    @media (max-width: 900px) {
+        justify-content: flex-end !important;
+    }
 }
 
 .navbar-collapse {
@@ -32,75 +36,77 @@ svg {
 
 
 
-@media (min-width: 768px) {
-    button {
-        background: $button-blue;
-        color: $white;
-        border-radius: 5px;
-        border: none;
-        padding-left: 14px;
-        box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.9);
-        font-size: 19px;
-        height: 50px;
 
-        svg {
-            margin-left: 10px;
+
+    @media (min-width: 768px) {
+        button {
+            background: $button-blue;
+            color: $white;
+            border-radius: 5px;
+            border: none;
+            padding-left: 14px;
+            box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.9);
+            font-size: 19px;
+            height: 50px;
+
+            svg {
+                margin-left: 10px;
+            }
+        }
+
+        .navbar .nav-item a:hover:after {
+            width: 100%;
+        }
+
+        .navbar .nav-item a::after {
+            background-color: $pink;
+            border-radius: 16px;
+            bottom: 1px;
+            content: "";
+            display: block;
+            height: 5px;
+            left: 0;
+            position: relative;
+            transition: all .3s ease-out 0s;
+            width: 0;
+            z-index: -1;
+        }
+
+        a.active {
+            font-weight: 700;
+        }
+
+        .sticky {
+            backdrop-filter: blur(3px);
+            background-color: $navbar-gradient;
+            box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.7);
         }
     }
 
-    .navbar .nav-item a:hover:after {
-        width: 100%;
-    }
+    @media (max-width: 767.9px) {
+        .navbar {
+            height: 60px;
+            padding: 0px;
+        }
 
-   .navbar .nav-item a::after {
-        background-color: $pink;
-        border-radius: 16px;
-        bottom: 1px;
-        content: "";
-        display: block;
-        height: 5px;
-        left: 0;
-        position: relative;
-        transition: all .3s ease-out 0s;
-        width: 0;
-        z-index: -1;
-    }
+        .navigationLinks {
+            width: 100vw;
+        }
 
-    a.active {
-        font-weight: 700;
-    }
+        .container-fluid {
+            justify-content: end !important;
+            background: $navbar-gradient;
+        }
 
-    .sticky {
-        backdrop-filter: blur(3px);
-        background-color: $navbar-gradient;
-        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.7);
-    }
-}
+        .navbar-toggler {
+            height: 60px;
+            line-height: 60px;
+            border: unset;
+            padding: 0 1.5rem 0 0;
+            font-size: 30px;
+        }
 
-@media (max-width: 767.9px) {
-    .navbar {
-        height: 60px;
-        padding: 0px;
+        .nav-link {
+            padding: 0 0 20px 0;
+        }
     }
-
-    .navigationLinks{
-        width: 100vw;
-    }
-
-    .container-fluid {
-        justify-content: end !important;
-        background: $navbar-gradient;
-    }
-
-    .navbar-toggler {
-        height: 60px;
-        line-height: 60px;
-        border: unset;
-        padding: 0 1.5rem 0 0;
-        font-size: 30px;
-    }
-    
-    .nav-link{
-        padding: 0 0 20px 0;
-    }
-}
