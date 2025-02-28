@@ -14,18 +14,20 @@
 
             <div class="contact">
                 <FooterLink href="https://www.linkedin.com/in/rebecca-olsson/"
-                             title="Visit LinkedIn"
-                             :iconComponent="LinkedInIcon" />
-                <FooterLink href="mailto:olsson_rebecca@outlook.com"
-                             title="Send E-mail"
-                             :iconComponent="ContactIcon" />
-                <FooterLink href="/Resume_Rebecca_Olsson.pdf"
-                             title="Download Resume"
-                             :iconComponent="DownloadIcon"
-                             download="Resume_Rebecca_Olsson.pdf" />
+                            title="Visit LinkedIn"
+                            :iconComponent="LinkedInIcon" />
                 <FooterLink href="https://github.com/olssonrebecca/RebeccaPortfolio/"
                             title="View code"
-                            :iconComponent="GitHubIcon"/>
+                            :iconComponent="GitHubIcon" />
+                <FooterLink href="/Resume_Rebecca_Olsson.pdf"
+                            title="Download Resume"
+                            :iconComponent="DownloadIcon"
+                            download="Resume_Rebecca_Olsson.pdf" />
+                <FooterLink href="mailto:olsson_rebecca@outlook.com"
+                            title="Send E-mail"
+                            :iconComponent="ContactIcon" />
+
+
             </div>
         </div>
 </template>
