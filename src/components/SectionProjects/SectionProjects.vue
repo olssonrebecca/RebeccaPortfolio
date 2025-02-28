@@ -100,7 +100,7 @@
 </script>
 
 <template>
-    <div class="project-container">
+    <div class="project-section">
         <h1>My <span class="turqoise-text">projects</span></h1>
         <div class="project-table">
             <Carousel v-bind="carouselConfig">

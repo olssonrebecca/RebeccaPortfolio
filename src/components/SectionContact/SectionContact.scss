@@ -1,0 +1,72 @@
+.contact-section{
+    padding: 100px;
+
+    @media only screen and (min-width: 1400px) {
+        padding: 100px 10%;
+    }
+
+    @media only screen and (min-width: 2800px) {
+        padding: 100px 15%;
+    }
+
+    @media only screen and (max-width: 640px) {
+        padding: 100px 20px;
+    }
+
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+
+    svg {
+        margin-left: 10px;
+        font-size: 45px;
+    }
+}
+
+.purple-text {
+    color: $purple;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.contact-details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+        border-radius: 50%;
+        position: relative;
+        z-index: 10000;
+        width: 40%;
+
+        @media only screen and (max-width: 900px) {
+            width: 75%;
+        }
+    }
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 40%;
+    margin-top: 20px;
+
+    @media only screen and (max-width: 900px) {
+        width: 75%;
+    }
+}
+
+.contact-email{
+    display: flex;
+    justify-content: flex-end;
+}

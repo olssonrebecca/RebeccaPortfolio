@@ -4,6 +4,7 @@
     import SectionServices from '../../components/SectionServices/SectionServices.vue';
     import SectionTools from '../../components/SectionTools/SectionTools.vue';
     import SectionProjects from '../../components/SectionProjects/SectionProjects.vue';
+    import SectionContact from '../../components/SectionContact/SectionContact.vue';
 </script>
 
 <template>
@@ -12,4 +13,5 @@
     <section id="sectionServices"><SectionServices /></section>
     <section id="sectionTools"><SectionTools /></section>
     <section id="sectionProjects"><SectionProjects /></section>
+    <section id="sectionContact"><SectionContact /></section>
 </template>

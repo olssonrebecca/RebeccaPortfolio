@@ -13,6 +13,7 @@ npm i vue3-particles
 npm i tsparticles-slim
 npm install -D sass-embedded
 npm i @iconify/vue
+npm i axios
 npm add radix-vue
 ```
 ### Compile and Hot-Reload for Development
