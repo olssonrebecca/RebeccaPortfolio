@@ -6,6 +6,10 @@
     align-items: center;
     min-width: 18%;
     transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: 0px;
+    animation-range-end: 30%;
 
     @media only screen and (max-width: 1160px) {
         min-width: 23%;
@@ -14,6 +18,11 @@
     @media only screen and (max-width: 990px) {
         width: 46%;
         height: 70px;
+    }
+
+    @keyframes fade-in{
+        from{ scale: .7; opacity: 0;}
+        to{scale: 1; opacity: 1;}
     }
 
     p {

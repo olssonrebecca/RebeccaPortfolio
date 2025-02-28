@@ -7,7 +7,6 @@
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-
     // Media Queries
     @media only screen and (max-width: 1100px) {
         padding: 100px;
@@ -72,7 +71,22 @@
         z-index: 10;
         background-color: $background-blue;
         min-width: 320px;
+        animation: fade-in linear;
+        animation-timeline: view();
+        animation-range-start: 0px;
+        animation-range-end: 35%;
 
+        @keyframes fade-in {
+            from {
+                scale: 0;
+                opacity: 0;
+            }
+
+            to {
+                scale: 1;
+                opacity: 1;
+            }
+        }
         // Media Queries for Facts Box
         @media only screen and (min-width: 2000px) {
             padding: 20px;

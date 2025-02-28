@@ -12,7 +12,7 @@
 
 <template>
     <div class="contact-section">
-        <h1><span class="purple-text">Contact</span> me</h1>  
+        <h1><span class="purple-text">Contact</span> me</h1>
         <div class="contact-container">
             <div class="contact-details">
                 <img src="/images/Rebecca.jpg">
@@ -31,11 +31,12 @@
                         <ContactIcon />
                     </ItemContactLink>
                 </div>
-                </div>
-            <!--<div class="contact-email">
-                <p>Send an e-mail to olsson_rebecca@outlook.com</p>
-          
-            </div>-->
             </div>
+            <!--<div class="contact-email">
+            <p>Send an e-mail to olsson_rebecca@outlook.com</p>
+
+        </div>-->
+        </div>
+       
     </div>
 </template>
