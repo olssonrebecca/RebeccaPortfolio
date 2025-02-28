@@ -92,7 +92,7 @@
                 margin: 5px 5px 5px 7px;
             }
 
-            @media only screen and (mi-width: 1100px) {
+            @media only screen and (min-width: 1100px) {
                 transform: translateX(calc(50% - 52px)) !important;
             }
         }
