@@ -13,6 +13,13 @@ p {
     display: flex;
     justify-content: start;
     z-index: 1;
+    p {
+        all: unset;
+        svg{
+            max-width: 25px;
+            max-height: 20px;
+           }
+    }
 }
 
 /* Hide NavigationMenuRoot on small screens */
@@ -42,6 +49,7 @@ p {
     display: flex;
    flex-direction: column;
    justify-content: space-around;
+  
 }
 /* Navigation links */
 .NavigationMenuLink {
@@ -59,7 +67,9 @@ p {
     width: 100vw;
     animation-duration: 250ms;
     animation-timing-function: ease;
+
 }
+
 
 .NavigationMenuContent[data-motion='from-start'] {
     animation-name: enterFromLeft;

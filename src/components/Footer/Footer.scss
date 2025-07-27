@@ -46,6 +46,8 @@
         svg {
             color: $turqoise;
             margin: 0px;
+            max-width: 20px;
+            max-height: 16px;
         }
     }
 
@@ -69,6 +71,7 @@
         z-index: 20;
         visibility: hidden;
         font-size: 12px;
+        border-radius: 5px;
     }
 
     a[data-title] {
